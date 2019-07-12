@@ -1,0 +1,43 @@
+body {
+  background-color: #ff7d7d;
+  font-family: 'Kanit', sans-serif;
+}
+
+.name {
+  color:#ffffff;
+  text-align: center;
+  font-size: 100px;
+}
+
+.cat-image {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #ffffff;
+  -webkit-transition: -webkit-transform .9s ease-in-out;
+  transition: transform .9s ease-in-out;
+}
+.cat-image:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+  border: 5px solid #2abdf7;
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+.cat-popup {
+  position: relative;
+  top: 30px;
+  text-align: center;
+  left: 80px;
+  width: 200px;
+  border-radius: 20px;
+  border: 2px solid #ffffff;
+  background-color: #ffffffb8;
+}
+
+.cat-popup-text {
+  font-size: 30px!important;
+  color: #422b2b;
+}
